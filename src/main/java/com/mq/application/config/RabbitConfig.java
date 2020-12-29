@@ -224,6 +224,8 @@ public class RabbitConfig {
 
     @Bean
     public HeadersExchange headersExchange(){
+
+
         return new HeadersExchange(HEADER_EXCHANGE);
     }
 
